@@ -1,0 +1,43 @@
+.{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0rem;
+    padding: 3px;
+    box-sizing: border-box;
+}
+body{
+    background-color: chocolate;
+}
+.container{
+    margin: auto;
+    display: inline-flex;
+    grid-row: 0.34px 1px;
+    width: 21mm;
+    height: 28mm;
+    overflow: visible;
+    box-shadow: inset;
+}
+.container.cardone {
+    padding: 2rem 4.5rem;
+    padding-left: 3.75rem;
+    background-color: cornsilk;
+    width: fit-content;
+    color: violet;
+}
+.container .cardone .profile {
+    display: flow-root;
+    margin-bottom: 2px;
+    margin-left: 6.5px;
+    width: 14.5px;
+    height: 15px;
+    border: 3.75px sandybrown;
+    background-image: -webkit-repeating-linear-gradient();
+}
+.container .cardtwo .headtitle {
+    font-size: medium;
+    color: burlywood;
+    font-weight: 250;
+}
+.container .cardtwo .content {
+    display: flexbox;
+    padding: 2px 5.75px ;
+}
